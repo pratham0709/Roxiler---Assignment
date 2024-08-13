@@ -24,17 +24,4 @@ export const getTransactions = async (month, search = '', page = 1, perPage = 10
   }
 };
 
-// export const getStatistics = async (month) => {
-//   try {
-//     const response = await axios.post(`${API_BASE_URL}/getStatistics`, { month });
-//     console.log(response);
-//     if (response.status === 200) {
-//       return response.data;
-//     } else {
-//       throw new Error(`Failed to fetch statistics: ${response.statusText}`);
-//     }
-//   } catch (error) {
-//     console.error('Error fetching statistics:', error.message);
-//     throw error;
-//   }
-// };
+
