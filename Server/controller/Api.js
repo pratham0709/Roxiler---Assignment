@@ -202,7 +202,7 @@ exports.getCategoryDistribution = async (req, res) => {
   }
 };
 
-//fetch all above Api's Data
+
 //Create an API which fetches the data from all the 3 APIs mentioned above, combines
 // the response and sends a final response of the combined JSO
 
@@ -477,16 +477,23 @@ exports.getCombinedData = async (req, res) => {
     const body = {};
 
     if (search) {
+      const regex = new RegExp(search, 'i'); // Case-insensitive regex for string fields
+    
       body.$or = [
-        { title: { $regex: search, $options: 'i' } }, // Case-insensitive regex search
-        { description: { $regex: search, $options: 'i' } },
-        { price: { $regex: search, $options: 'i' } },
+        { title: regex },
+        { description: regex },
+        { category: regex },
       ];
+    
+      // Check if the search query is a valid number and add to query if so
+      if (!isNaN(search)) {
+        body.$or.push({ price: Number(search)});
+      }
     }
 
     if (month) {
       body.$expr = { $eq: [{ $month: '$dateOfSale' }, monthNumber] }; // Use $expr to filter by month
-     }
+    }
     // Get total number of transactions that match the query
     const totalTransactions = await Product.countDocuments(body);
 
