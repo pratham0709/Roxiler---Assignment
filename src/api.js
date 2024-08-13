@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:4000/api/products'; // Update this with your actual backend URL
+const API_BASE_URL = 'https://transactions-backend-hejp.onrender.com/api/products'; // Update this with your actual backend URL
 
 // Fetch transactions with month, search query, and pagination
 export const getTransactions = async (month, search = '', page = 1, perPage = 10) => {
