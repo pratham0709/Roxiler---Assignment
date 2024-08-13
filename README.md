@@ -64,8 +64,4 @@ Ensure you have the following installed on your machine:
    ```bash
    git clone https://github.com/your-username/transaction-insight-dashboard.git
 
-# Screenshots
-
-## Home Section
-(https://github.com/pratham0709/Roxiler---Assignment/src/assets/images/1.png)
 
