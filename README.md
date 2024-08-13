@@ -67,5 +67,5 @@ Ensure you have the following installed on your machine:
 # Screenshots
 
 ## Home Section
-![Screenshot (90)](https://github.com/pratham0709/Roxiler---Assignment/src/assets/images/1.png)
+(https://github.com/pratham0709/Roxiler---Assignment/src/assets/images/1.png)
 
