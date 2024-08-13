@@ -12,8 +12,8 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 app.use(express.json());
 app.use(function (req, res, next) {
-    // res.header("Access-Control-Allow-Origin", "*");
-    const allowedOrigins ="*";
+    res.header("Access-Control-Allow-Origin", "*");
+    const allowedOrigins =["http://localhost:3000","*","https://roxiler-assignment-two.vercel.app"]
     const origin = req.headers.origin;
     if (allowedOrigins.includes(origin)) {
       res.setHeader('Access-Control-Allow-Origin', origin);
