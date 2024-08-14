@@ -153,8 +153,8 @@ const TransactionTable = () => {
       </div>
 
       
-
-      <table className="min-w-full border overflow-x-auto rounded-lg mb-4 font-bold ">
+      <div className='overflow-x-auto'>
+      <table className="min-w-full border rounded-lg mb-4 font-bold ">
         <thead className=" border-gray-200 font-inter ">
           <tr className=''>
             <th className="py-4 px-5 border-b text-left">Title</th>
@@ -180,6 +180,8 @@ const TransactionTable = () => {
           )}
         </tbody>
       </table>
+      </div>
+      
 
       <div className="flex justify-between items-center m-7 mb-10">
         <button
