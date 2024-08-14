@@ -64,4 +64,27 @@ Ensure you have the following installed on your machine:
       <img src="https://github.com/pratham0709/Roxiler---Assignment/blob/main/src/assets/images/1.png" alt="Project Banner">
 </div>
 
+## Sales Transaction Description
+<div>
+      <img src="https://github.com/pratham0709/Roxiler---Assignment/blob/main/src/assets/images/2.png" alt="Project Banner">
+</div>
 
+## Price Range Distribution
+<div>
+      <img src="https://github.com/pratham0709/Roxiler---Assignment/blob/main/src/assets/images/3.png" alt="Project Banner">
+</div>
+
+## Core Feature Section
+<div>
+      <img src="https://github.com/pratham0709/Roxiler---Assignment/blob/main/src/assets/images/4.png" alt="Project Banner">
+</div>
+
+## Instruction Section
+<div>
+      <img src="https://github.com/pratham0709/Roxiler---Assignment/blob/main/src/assets/images/5.png" alt="Project Banner">
+</div>
+
+## Footer Section
+<div>
+      <img src="https://github.com/pratham0709/Roxiler---Assignment/blob/main/src/assets/images/6.png" alt="Project Banner">
+</div>
