@@ -57,11 +57,6 @@ Ensure you have the following installed on your machine:
 - Node.js (v14 or above)
 - npm (v6 or above)
 
-### Installation
 
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/your-username/transaction-insight-dashboard.git
 
 
