@@ -57,6 +57,11 @@ Ensure you have the following installed on your machine:
 - Node.js (v14 or above)
 - npm (v6 or above)
 
+#Screenshots
 
+## Home Section
+<a href="https://youtu.be/_W3R2VwRyF4?feature=shared" target="_blank">
+      <img src="https://github.com/adrianhajdin/social_media_app/assets/151519281/be514a19-3cbb-48b7-9acd-2cf4d2e319c4" alt="Project Banner">
+</a>
 
 
