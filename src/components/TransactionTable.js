@@ -112,7 +112,7 @@ const TransactionTable = () => {
 
 
       </div>
-      <div className="flex flex-row justify-between items-center mb-6">
+      <div className="flex flex-col sm:flex-col md:flex-row justify-between items-center mb-6">
       <div className='group mt-16 p-1 rounded-full bg-richblack-800 
                 transition-all duration-200 hover:scale-95 w-fit cursor-pointer'>
         <select
@@ -260,7 +260,7 @@ const TransactionTable = () => {
         />
         </div>
         <div className='h-[130px]'></div>
-        <div className='flex flex-row justify-between mt-6 pt-6'>
+        <div className='flex flex-col justify-center items-center lg:flex-row sm:flex-col sm:justify-center md:flex-row sm:items-center md:justify-between mt-6 pt-6'>
           <div className='w-[50%] flex flex-col items-center justify-center'>
             <div className='text-4xl font-inter font-bold mt-7'>Core Feature 
             <Highlight text={"Highlights"} />
@@ -280,7 +280,7 @@ const TransactionTable = () => {
         </div>
 
         <div className='h-[130px]'></div>
-        <div className='flex flex-row justify-between mt-6 pt-6 mb-10 gap-x-4 '>
+        <div className='flex flex-col justify-center items-center sm:flex-col sm:justify-center sm:items-center md:flex-row lg:flex-row md:justify-between mt-6 pt-6 mb-10 gap-x-4 '>
         <div className='w-[50%]'>
             <img 
               src={img2}
