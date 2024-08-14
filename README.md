@@ -60,8 +60,8 @@ Ensure you have the following installed on your machine:
 #Screenshots
 
 ## Home Section
-<a href="https://youtu.be/_W3R2VwRyF4?feature=shared" target="_blank">
-      <img src="https://github.com/pratham0709/Roxiler---Assignment/src/assets/images/1.png" alt="Project Banner">
-</a>
+<div>
+      <img src="https://github.com/pratham0709/Roxiler---Assignment/blob/main/src/assets/images/1.png" alt="Project Banner">
+</div>
 
 
