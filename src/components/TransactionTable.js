@@ -143,11 +143,13 @@ const TransactionTable = () => {
        
       </div>
 
-      <div className="mb-6 text-xl mx-auto w-[90%] font-bold text-richblack-200 text-center lg:mt-6 lg:mb-11 lg:pt-4 ">
-        <h2 className="text-2xl font-bold text-white p-4">Transaction Statistics for {month}</h2>
+      <div className="mb-6 text-xl mx-auto w-[90%] flex flex-col justify-center items-center font-bold text-richblack-200 text-center lg:mt-6 lg:mb-11 lg:pt-4 ">
+        <h2 className="text-3xl font-bold text-white p-4">Transaction Statistics for {month}</h2>
+        <div className='flex items-start flex-col'>
         <div>Total Sale Amount: ${statistics.totalSaleAmount.toFixed(2)}</div>
         <div>Total Sold Items: {statistics.totalSoldItems}</div>
         <div>Total Not Sold Items: {statistics.totalNotSoldItems}</div>
+      </div>
       </div>
 
       
