@@ -14,11 +14,6 @@
 - [Getting Started](#getting-started)
 - [Usage Instructions](#usage-instructions)
 - [Deployment on Vercel](#deployment-on-vercel)
-- [API Documentation](#api-documentation)
-- [Contribution Guidelines](#contribution-guidelines)
-- [License](#license)
-- [Contact Information](#contact-information)
-
 ---
 
 ## Overview
