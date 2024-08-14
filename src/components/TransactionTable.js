@@ -262,9 +262,9 @@ const TransactionTable = () => {
         />
         </div>
         <div className='h-[130px]'></div>
-        <div className='flex flex-col justify-center items-center lg:flex-row sm:flex-col sm:justify-center md:flex-row sm:items-center md:justify-between mt-6 pt-6'>
-          <div className='w-[50%] flex flex-col items-center justify-center'>
-            <div className='text-4xl font-inter font-bold mt-7'>Core Feature 
+        <div className='w-full flex flex-col justify-center items-center lg:flex-row sm:flex-col sm:justify-center md:flex-row sm:items-center md:justify-between mt-6 pt-6'>
+          <div className='md:w-[50%] w-[90%] flex flex-col items-center justify-center'>
+            <div className='text-4xl font-inter font-bold mt-7 '>Core Feature 
             <Highlight text={"Highlights"} />
             </div>
             <p className=" text-lg font-bold text-richblack-300 p-6">
@@ -272,7 +272,7 @@ const TransactionTable = () => {
                 Analyze your sales data through detailed statistics and visual charts to make informed business decisions.
             </p>
           </div>
-          <div className='w-[50%]'>
+          <div className='md:w-[50%] w-[90%] '>
             <img 
               src={img1}
               // loading='lazy'
@@ -283,7 +283,7 @@ const TransactionTable = () => {
 
         <div className='h-[130px]'></div>
         <div className='flex flex-col justify-center items-center sm:flex-col sm:justify-center sm:items-center md:flex-row lg:flex-row md:justify-between mt-6 pt-6 mb-10 gap-x-4 '>
-        <div className='w-[50%]'>
+        <div className='md:w-[50%] w-[90%]'>
             <img 
               src={img2}
               className='loding-lazy'
@@ -291,7 +291,7 @@ const TransactionTable = () => {
             />
           </div>
           
-          <div className='w-[50%] flex flex-col items-center justify-center gap-x-4'>
+          <div className='md:w-[50%] w-[90%]flex flex-col items-center justify-center gap-x-4'>
             <div className='text-4xl font-inter font-bold mt-7'>Step-by-Step 
             <Highlight text={"Instructions"} />
             </div>
